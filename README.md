@@ -3,7 +3,7 @@ Copycat - A PHP Scraping Class
 
 You may find more info on [gidlov.com/copycat][1]
 
-###For Laravel 4 Developers###
+### For Laravel 4 Developers###
 
 In the `require` key of `composer.json` file add the following:
 
@@ -217,16 +217,16 @@ To apply functions on selected elements, replace `_all_` with your key value, li
 
 Note that it is fine to use **anonymous functions** too.
 
-##Drawbacks##
+## Drawbacks##
 
 PHP itself is not suitable for long time-consuming operations, since the process is interrupted as soon as the user closes the web page, or when PHP's time limit is reached *(however `set_time_limit(0)` is utilized in the construct method so right there should not be a problem)*.
 
-##Requirements##
+## Requirements##
 
  - PHP 5
  - cURL extension
 
-##License##
+## License##
 
 Copycat is released under [LGPL][5].
 
